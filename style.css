@@ -1,0 +1,41 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #D0DDD7;
+}
+
+nav {
+    background-color: #594E36;
+}
+
+.navbar-brand {
+    font-family: 'Alegreya', serif;
+    font-size: 2em;
+}
+
+#logoHeader {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: #7E846B;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.logo {
+    display: none;
+}
+@media screen and (min-width: 720px){
+    nav {
+        font-size: 1.3em;
+    }
+    
+    #logoHeader {
+        display: inline;
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+}
