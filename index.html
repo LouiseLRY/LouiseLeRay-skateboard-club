@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-12">
                 <!--Navigation bar-->
-                <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-xl navbar-dark">
                     <div class="container-fluid navigationBar ">
                         <a class="navbar-brand" href="#">
                             <img id="logoHeader" src="images/logo.png" alt="logo">
@@ -60,13 +60,113 @@
             </div>
         </div>
 
+        <!--Carousel-->
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselImages" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" aria-label="Slide 1"
+                            aria-current="true" class="active"></button>
+                        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/skater.png" class="d-block w-100" alt="Un jeune skateur du club">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Bienvenue au Skateboard Club de Crest !</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/evenements .png" class="d-block w-100" alt="Nos événements">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Suivez nos événements</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cours.png" class="d-block w-100"
+                                alt="Nos élèves et leur moniteur de skateboard">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Prenez des cours de Skateboard</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselImages"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
+        <!--Main Content-->
+        <main>
+            <div class="row" id="presentation">
+                <div class="col-12">
+                    <h1 id="presentationTitle">La passion du Skateboard</h1>
+                    <p>Le Crest Skateboard Club est une association crée le 26 Octobre 2016 et ayant pour but de promouvoir le Skateboard. Nous cherchons avant tout à offrir aux jeunes de Crest et des alentours, un endroit sécurisé et bienveillant pour l'apprentissage de ce sport. 
+                        Le Skateboard Club de Crest est une association vivante. En effet, nous proposons régulièrement des événements afin de réunir grands et petits autour de la même passion du skate. 
+                        Nos cours sont proposés par des moniteurs diplômés du Brevet d'Initiateur Fédéral opriton Skateboard. 
+                    </p>
+                </div>
+            </div>
 
-    </div>
+            <!--Cards to present the different pages-->
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                        <img src="images/cours-card.png" class="card-img-top" alt="un élève du club">
+                        <div class="card-body">
+                            <h3 class="card-title">Les Cours</h3>
+                            <p class="card-text">
+                                Retrouvez les horaires de nos cours de Skateboard. Deux groupes sont distingués: "Jusqu'à 9 ans" et "A partir de 10 ans"
+                                pour plus de facilité. Nous vous présentons également l'intégralité de notre équipe de moniteurs.
+                            </p>
+                            <a href="#" class="btn btn-secondary">Accéder aux cours ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                        <img src="images/events-card.png" class="card-img-top" alt="un événement du club">
+                        <div class="card-body">
+                            <h3 class="card-title">Nos Evénements</h3>
+                            <p class="card-text">
+                                Retrouvez tous nos événements passés ou à venir ! Concerts, contests de Skateboard, journée spécial Kidz... Il y en a pour tous les goûts. 
+                                Participer aux événements du club c'est à la fois profiter un moment de partage et de bonne humeur, mais aussi soutenir l'association ! 
+                            </p>
+                            <a href="#" class="btn btn-secondary">Accéder aux événements ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                        <img src="images/skatepark.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Les actualités de l'association</h3>
+                            <p class="card-text">
+                                Ici, vous pouvez retrouver toutes nos actualités ! Des nouveaux moniteurs à l'Assemblée Générale de l'association, en passant par nos divers projets pour le 
+                                Skatepark en liens avec la Mairie de Crest. 
+                            </p>
+                            <a href="#" class="btn btn-secondary">Accéder aux actualités ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,6 +1,12 @@
 body {
     font-family: 'Overpass', sans-serif;
     background-color: #D0DDD7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Infant', serif;
 }
 
 nav {
@@ -27,6 +33,26 @@ nav {
 .logo {
     display: none;
 }
+
+#presentation {
+    margin-top: 20px;
+    padding: 5px;
+    background: rgb(255, 255, 255, 0.4);
+}
+
+#presentationTitle {
+    padding: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 @media screen and (min-width: 720px){
     nav {
         font-size: 1.3em;
@@ -37,5 +63,9 @@ nav {
         width: 80px;
         height: 80px;
         margin-right: 20px;
+    }
+
+    h2 {
+        font-size: 3em;
     }
 }
