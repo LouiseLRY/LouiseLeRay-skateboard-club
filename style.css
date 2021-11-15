@@ -1,8 +1,6 @@
 body {
     font-family: 'Overpass', sans-serif;
     background-color: #D0DDD7;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 h1, h2, h3 {
@@ -35,6 +33,7 @@ nav {
 }
 
 #presentation {
+    margin: 5px;
     margin-top: 20px;
     padding: 5px;
     background: rgb(255, 255, 255, 0.4);
@@ -53,6 +52,59 @@ nav {
     margin-bottom: 30px;
 }
 
+.cardButton {
+    background: #A5AE9E;
+}
+
+footer {
+    background: #594E36;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.footerList {
+    margin-right: 30px;
+}
+.footerList li {
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.footerList a {
+    color: white;
+}
+
+#footerLogo {
+    margin-top: 20px;
+    width: 60px;
+    height : 60px;
+}
+.icons {
+    margin-right: 30px;
+}
+.icons li {
+    display: inline;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.legalMentions {
+    text-align: center;
+    color: white;
+    font-size: 0.5em;
+}
+
+.legalMentions p {
+    margin-bottom: 0px;
+}
+
 @media screen and (min-width: 720px){
     nav {
         font-size: 1.3em;
@@ -68,4 +120,5 @@ nav {
     h2 {
         font-size: 3em;
     }
+
 }
