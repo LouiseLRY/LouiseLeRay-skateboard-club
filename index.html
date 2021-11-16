@@ -108,19 +108,22 @@
             </div>
         </div>
 
-        <!--Main Content-->
+        <!--Presentation-->
         <main>
-            <div class="row" id="presentation">
+            <div class="row">
                 <div class="col-12">
-                    <h1 id="presentationTitle">La passion du Skateboard</h1>
-                    <p>Le Crest Skateboard Club est une association crée le 26 Octobre 2016 et ayant pour but de
-                        promouvoir le Skateboard. Nous cherchons avant tout à offrir aux jeunes de Crest et des
-                        alentours, un endroit sécurisé et bienveillant pour l'apprentissage de ce sport.
-                        Le Skateboard Club de Crest est une association vivante. En effet, nous proposons régulièrement
-                        des événements afin de réunir grands et petits autour de la même passion du skate.
-                        Nos cours sont proposés par des moniteurs diplômés du Brevet d'Initiateur Fédéral opriton
-                        Skateboard.
-                    </p>
+                    <article>
+                        <h1>La passion du Skateboard</h1>
+                        <p>Le Crest Skateboard Club est une association crée le 26 Octobre 2016 et ayant pour but de
+                            promouvoir le Skateboard. Nous cherchons avant tout à offrir aux jeunes de Crest et des
+                            alentours, un endroit sécurisé et bienveillant pour l'apprentissage de ce sport.
+                            Le Skateboard Club de Crest est une association vivante. En effet, nous proposons
+                            régulièrement
+                            des événements afin de réunir grands et petits autour de la même passion du skate.
+                            Nos cours sont proposés par des moniteurs diplômés du Brevet d'Initiateur Fédéral opriton
+                            Skateboard.
+                        </p>
+                    </article>
                 </div>
             </div>
 
@@ -128,7 +131,7 @@
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="card">
-                        <img src="images/cours-card.png" class="card-img-top" alt="un élève du club">
+                        <img id="imgCard" src="images/cours-card.png" class="card-img-top" alt="un élève du club">
                         <div class="card-body">
                             <h3 class="card-title">Les Cours</h3>
                             <p class="card-text">
@@ -143,7 +146,7 @@
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="card">
-                        <img src="images/events-card.png" class="card-img-top" alt="un événement du club">
+                        <img id="imgCard" src="images/evenementsCard.png" class="card-img-top" alt="un événement du club">
                         <div class="card-body">
                             <h3 class="card-title">Nos Evénements</h3>
                             <p class="card-text">
@@ -158,7 +161,7 @@
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="card">
-                        <img src="images/skatepark.png" class="card-img-top" alt="">
+                        <img id="imgCard" src="images/skatepark.png" class="card-img-top" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Les actualités de l'association</h3>
                             <p class="card-text">
@@ -172,37 +175,67 @@
                 </div>
             </div>
         </main>
-
+    
+        <!--article video -->
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <article id="meetTheClub">
+                    <h2>Rencontre avec le Skate Club</h2>
+                    <video width="390" controls>
+                        <source src="images/video-skate-club.mp4" type="video/mp4">
+                        <source src="images/video-skate-club.webm" type="video/webm">
+                        Toutes nos excuses, votre navigateur ne permet pas l'affichage de cette vidéo.
+                    </video>
+                    <p>Vidéo par "Le Bec Magazine", tournée en 2019.</p>
+                </article>
+            </div>
+            <!--Article general assembly report-->
+            <div class="col-12 col-lg-6">
+                <article>
+                    <h2>Bilan de l'Assemblée Générale</h2>
+                    <object id="pdfDoc" type="application/pdf" data="images/Bilan moral.pdf" width="390" height="350"></object>
+                    <p>Voici le Bilan Moral suite à l'Assemblée Générale qui s'est tenue le 29 Octobre 2021.</p>
+                </article>
+            </div>
+            
         <!--Footer-->
         <div class="row">
-            <div class="col-12 cols-lg-4">
+            <div class="col-12 ">
                 <footer>
                     <div class="footerList">
                         <ul>
-                            <li><h4>Crest Skateboard Club</h4></li>
-                            <li><adresse>Quai Soubeyran 26400 CREST</adresse></li>
+                            <li>
+                                <h4>Crest Skateboard Club</h4>
+                            </li>
+                            <li>
+                                <adresse>Quai Soubeyran 26400 CREST</adresse>
+                            </li>
                             <li><a href="mailto:crestskateboardclub@gmail.com">Contactez-nous</a></li>
                             <li>
                                 <img id="footerLogo" src="images/logo.png" alt="logo du club">
                             </li>
-                            <li><ul class="icons">
-                                <li><a href="https://www.facebook.com/CrestSkateboardClub"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/crestskateboardclub/"><i class="bi bi-instagram"></i></a></li>
-                            </ul></li>
+                            <li>
+                                <ul class="icons">
+                                    <li><a href="https://www.facebook.com/CrestSkateboardClub"><i
+                                                class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/crestskateboardclub/"><i
+                                                class="bi bi-instagram"></i></a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div class="legalMentions">
                         <p>©2021 Crest Skateboard Club - Tous Droits Réservés</p>
                         <p>Site Web développé par Louise Le Ray</p>
                     </div>
-                    </div>
-                </footer>
             </div>
+            </footer>
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
