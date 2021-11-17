@@ -9,14 +9,6 @@ h1, h2, h3 {
     font-family: 'Cormorant Infant', serif;
 }
 
-h1, h2 {
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2.4rem;
-}
-
 /* Navigation bar*/
 
 nav {
@@ -47,35 +39,18 @@ nav {
 /*Articles and ads*/
 
 article {
-    margin-top: 20px;
-    padding: 10px;
     background: rgb(255, 255, 255, 0.4);
 }
 
-aside {
-    margin-top: 20px;
-    text-align: center;
-}
-
 #eventAd {
-    height: 715px;
-    width: 550px;
+    height: auto;
+    width: 90%;
 }
 
 /*Cards*/
 
 .card {
-    margin-top: 20px;
     border-radius: 10px;
-}
-
-.cardEvent {
-    margin: 20px;
-}
-
-.card-text {
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .cardButton {
@@ -94,16 +69,7 @@ label {
 }
 
 #labelGender {
-    margin: 0px;
-    margin-left: 5px;
-}
-
-#boy {
-    margin-left: 20px;
-}
-
-legend {
-    font-size : 1rem;
+    margin: 0px;  
 }
 
 /*Footer*/
