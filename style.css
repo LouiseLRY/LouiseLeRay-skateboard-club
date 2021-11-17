@@ -110,52 +110,19 @@ legend {
 
 footer {
     background: #594E36;
-    margin-top: 20px;
-    padding: 20px;
+    color:white;
 }
 
-h4 {
-    font-weight: bold;
-    font-size: 1.4em;
-}
-.footerList {
-    margin-right: 30px;
-}
-.footerList li {
-    list-style: none;
-    margin-top: 10px;
+footer a {
     color: white;
-    font-size: 0.8em;
-    text-align: center;
+    text-decoration: none;
 }
 
-.footerList a {
+footer a:hover {
+    text-decoration: underline;
     color: white;
 }
 
-#footerLogo {
-    margin-top: 20px;
-    width: 60px;
-    height : 60px;
-}
-.icons {
-    margin-right: 30px;
-}
-.icons li {
-    display: inline;
-    margin: 10px;
-    font-size: 2em;
-}
-
-.legalMentions {
-    text-align: center;
-    color: white;
-    font-size: 0.5em;
-}
-
-.legalMentions p {
-    margin-bottom: 0px;
-}
 
 /*large screen settings*/
 
