@@ -17,7 +17,7 @@ nav {
 
 .navbar-brand {
     font-family: 'Alegreya', serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #logoHeader {
@@ -97,6 +97,10 @@ footer a:hover {
         font-size: 1.3em;
     }
     
+    .navbar-brand {
+        font-size: 2em;
+    }
+
     #logoHeader {
         display: inline;
         width: 80px;
