@@ -54,11 +54,12 @@ article {
 
 aside {
     margin-top: 20px;
+    text-align: center;
 }
 
-#adEvent {
-    height: 530px;
-    width: 350px;
+#eventAd {
+    height: 715px;
+    width: 550px;
 }
 
 /*Cards*/
@@ -66,6 +67,10 @@ aside {
 .card {
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.cardEvent {
+    margin: 20px;
 }
 
 .card-text {
@@ -77,6 +82,29 @@ aside {
     background: #A5AE9E;
 }
 
+/*Modal window's form*/
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#labelGender {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#boy {
+    margin-left: 20px;
+}
+
+legend {
+    font-size : 1rem;
+}
 
 /*Footer*/
 

@@ -36,13 +36,13 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
                             <ul class="navbar-nav">
                                 <li class="nav-item m-lg-3">
-                                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                                    <a class="nav-link" href="index.html">Accueil</a>
                                 </li>
                                 <li class="nav-item m-lg-3">
                                     <a class="nav-link" href="#">Actualités</a>
                                 </li>
                                 <li class="nav-item m-lg-3">
-                                    <a class="nav-link active" href="events.html">Evénements</a>
+                                    <a class="nav-link active" aria-current="page" href="events.html">Evénements</a>
                                 </li>
                                 <li class="nav-item dropdown m-lg-3">
                                     <a class="nav-link dropdown-toggle" href="#" id="lessonsDropdown" role="button"
@@ -60,35 +60,187 @@
                 </nav>
             </div>
         </div>
-
-        <!--Footer-->
+        <div class="row-col-12">
+            <article>
+                <h1>Les événements du club</h1>
+                <p>Contests de skate, journée d'Halloween, concerts ... Retrouvez ici tous les événements organisés par
+                    l'association. N'hésitez pas
+                    à remplir notre formulaire d'inscription afin de compter parmis les prochains participants aux
+                    différents contests de Skateboard.
+                </p>
+            </article>
+        </div>
+        <!--card event n°1-->
         <div class="row">
-            <div class="col-12 cols-lg-4">
-                <footer>
-                    <div class="footerList">
-                        <ul>
-                            <li><h4>Crest Skateboard Club</h4></li>
-                            <li><adresse>Quai Soubeyran 26400 CREST</adresse></li>
-                            <li><a href="mailto:crestskateboardclub@gmail.com">Contactez-nous</a></li>
-                            <li>
-                                <img id="footerLogo" src="images/logo.png" alt="logo du club">
-                            </li>
-                            <li><ul class="icons">
-                                <li><a href="https://www.facebook.com/CrestSkateboardClub"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/crestskateboardclub/"><i class="bi bi-instagram"></i></a></li>
-                            </ul></li>
-                        </ul>
+            <div class="col-12 col-lg-6">
+                <div class="card cardEvent">
+                    <h2 class="card-title">La journée "Skate Kids"</h2>
+                    <img src="images/skateKidz.png" class="card-img-top" alt="affiche de l'événement SkateKids">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Au Skate-Park de Crest : Quai Soubeyran
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-calendar2-week-fill"></i>
+                            Le 05 Juin 2021
+                        </p>
+                        <p class="card-text">
+                            Journée pleine d'animations prévue au skate-park pour les jeunes de 7 à 18 ans. Au
+                            programme: contests de skateboard
+                            pour toutes catégories (7/11ans, 12/14 ans, 15/18 ans et filles). Enormément de lots à
+                            gagner, offerts gracieusement
+                            par nos multiples sponsors. Mais aussi: buvette, restauration sur place le midi. A 18h15,
+                            vous pourrez assister à la
+                            remise des prix, puis, un DJ vous divertira jusqu'à la nuit tombée. <br> <i>Incription : 5€,
+                                sur place dès 11h.</i>
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:crestskateboardclub@gmail.com">crestskateboardclub@gmail.com</a>
+                        </p>
+                        <button class="btn cardButton" type="button" data-toggle="modal" data-target="#modalForm">Je
+                            participe</button>
                     </div>
-                    <div class="legalMentions">
-                        <p>©2021 Crest Skateboard Club - Tous Droits Réservés</p>
-                        <p>Site Web développé par Louise Le Ray</p>
+                </div>
+            </div>
+            <!--card event n°2-->
+            <div class="col-12 col-lg-6">
+                <div class="card cardEvent">
+                    <h2 class="card-title">Le Local Crash Constest</h2>
+                    <img src="images/localCrashContest.png" class="card-img-top" alt="affiche de l'événement SkateKids">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Au Skate-Park de Crest : Quai Soubeyran
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-calendar2-week-fill"></i>
+                            Le 28 Mars 2021
+                        </p>
+                        <p class="card-text">
+                            De <b>18h à minuit</b> au Skate-Park de Crest, venez vous affronter dans un contest de skate ! Différentes catégories
+                            seront récompensées, parmis lesquelles: le plus long Ollie ou encore le meilleur "tricks". Pour vous accompagner, un DJ jouera
+                            toute la soirée, et comme d'habitude, vous pourrez vous rafraîchir à notre buvette. L'inscription est requise pour participer,
+                            mais gratuite, alors n'hésitez pas à venir montrer vos talents de skateur !!
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:crestskateboardclub@gmail.com">crestskateboardclub@gmail.com</a>
+                        </p>
+                        <button class="btn cardButton disabled" type="button" >Evénement passé</button>
                     </div>
-                    </div>
-                </footer>
+                </div>
             </div>
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    <div class="row">
+        <!--Ad for event of the club-->
+        <div class="col-12 col-lg-6">
+            <aside>
+                <img id="eventAd" src="images/AG.png" alt="pub pour l'assemblée générale de l'association">
+            </aside>
+        </div>
+        <!--Ad for event of another club-->
+        <div class="col-12 col-lg-6">
+            <aside>
+                <img id="eventAd" src="images/pub-event-asso.png"
+                    alt="pub pour un événement d'une autre association de skateboard">
+            </aside>
+        </div>
+    </div>
+
+
+    <!--Modal window with registration form -->
+    <div class="modal" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalForm" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="formTitle">Incrivez-vous !</h3>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="#">
+                        <div class="form-group">
+                            <legend>Je suis : </legend>
+                            <input class="form-check-input" type="radio" id="girl" name="gender">
+                            <label class="form-check-label" for="girl" id="labelGender">Une skateuse</label>
+                            <input class="form-check-input" type="radio" id="boy" name="gender">
+                            <label class="form-check-label" for="boy" id="labelGender">Un skateur</label>
+                            <br>
+                            <label for="firstName">Prénom : </label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Luke">
+                            <label for="name">Nom : </label>
+                            <input type="text" class="form-control" id="name" placeholder="Skywalker">
+                            <label for="address">Adresse : </label>
+                            <input type="text" class="form-control" id="address" placeholder="2, rue Tatooine">
+                            <label for="zipCode">Code Postal : </label>
+                            <input type="text" class="form-control" id="zipCode" placeholder="26400">
+                            <label for="city">Ville : </label>
+                            <input type="text" class="form-control" id="city" placeholder="CREST">
+                            <label for="category">Dans quelle catégorie skatez-vous ?</label>
+                            <select class="form-control" name="category" id="category">
+                                <option value="7to11years-old">7 / 11 ans</option>
+                                <option value="12to14years-old">12 / 14 ans</option>
+                                <option value="15to18years-old">15 / 18 ans</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn cardButton">Envoyer</button>
+                    <button type="button" class="btn cardButton" data-dismiss="modal">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="row">
+        <div class="col-12 cols-lg-4">
+            <footer>
+                <div class="footerList">
+                    <ul>
+                        <li>
+                            <h4>Crest Skateboard Club</h4>
+                        </li>
+                        <li>
+                            <adresse>Quai Soubeyran 26400 CREST</adresse>
+                        </li>
+                        <li><a href="mailto:crestskateboardclub@gmail.com">Contactez-nous</a></li>
+                        <li>
+                            <img id="footerLogo" src="images/logo.png" alt="logo du club">
+                        </li>
+                        <li>
+                            <ul class="icons">
+                                <li><a href="https://www.facebook.com/CrestSkateboardClub"><i
+                                            class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/crestskateboardclub/"><i
+                                            class="bi bi-instagram"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="legalMentions">
+                    <p>©2021 Crest Skateboard Club - Tous Droits Réservés</p>
+                    <p>Site Web développé par Louise Le Ray</p>
+                </div>
+        </div>
+        </footer>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
