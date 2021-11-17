@@ -112,16 +112,8 @@ footer a:hover {
         font-size: 2.5rem;
    }
 
-    #pdfDoc {
-        width: 715px;
-        height: 404px;
-    }
-
-    #meetTheClub video {
-        width: 715px;
-    }
-
     #imgCard {
         height: 350px;
     }
 }
+
